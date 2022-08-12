@@ -9,8 +9,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "xcode version"
-          command: "/usr/bin/xcodebuild -version"
+          name: "check macOS version"
+          command: "sw_vers"
 
 workflows:
   say-hello-workflow:
