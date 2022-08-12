@@ -13,6 +13,6 @@ jobs:
           command: "sw_vers"
 
 workflows:
-  say-hello-workflow:
+  test-build:
     jobs:
       - build
